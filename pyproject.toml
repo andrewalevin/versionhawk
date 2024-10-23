@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"  # If not defined, then legacy behavior 
 
 [project]
 name = "versionhawk"
-version = "0.2"
+version = "0.3"
 
 description = "🦉 Version Hawk by Andrew A Levin"
 readme = "README.md"
@@ -63,3 +63,6 @@ versionhawk = "versionhawk.versionhawk:main"
 
 [tool.setuptools]
 package-data = {"sample" = ["*.dat"]}
+
+[tool.setuptools.packages.find]
+where = ["src"]
