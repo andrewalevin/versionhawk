@@ -39,7 +39,6 @@ def generate_new_version(versions: List[str]) -> str:
 
     version_patterns = [
         f"{now.year}.{now.month}",
-        f"{now.year}.{now.month}.{week_number_in_month}",
         f"{now.year}.{now.month}.{now.day}",
         f"{now.year}.{now.month}.{now.day}.{now.hour}",
         f"{now.year}.{now.month}.{now.day}.{now.hour}.{now.minute}",
